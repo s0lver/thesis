@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/strLblBienvenidos_AL"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/strContentDescriptionGPSImage_AL"
+        android:src="@drawable/gps_64" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lblUsername_AL" />
+
+    <EditText
+        android:id="@+id/txtUsername_AL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:hint="@string/strTxtUsernameHint_AL"
+        android:text="rafael" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lblPassword_AL" />
+
+    <EditText
+        android:id="@+id/txtPassword_AL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:hint="@string/strTxtPasswordHint_AL"
+        android:inputType="textPassword"
+        android:text="tobi1000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnLogin_AL"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="click"
+            android:text="@string/strBtnLogin_AL" />
+
+        <Button
+            android:id="@+id/btnRegistrar_AL"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="click"
+            android:text="@string/strBtnRegistrar_AL" />
+
+        <Button
+            android:id="@+id/btnServicio_AL"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="click"
+            android:text="Call svc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnIniciarTransmisor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="Iniciar transmisor" android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnDetenerTransmisor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detener transmisor" android:layout_weight="1" android:onClick="click"/>
+
+    </LinearLayout>
+
+</LinearLayout>

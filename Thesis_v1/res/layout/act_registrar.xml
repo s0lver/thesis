@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/strLblRegistrar_AR"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/strContentDescriptionImagenAgregarUsuario_AR"
+        android:src="@drawable/user_64" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/strLblMensajeRegistrar_AR"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- Nombre del usuario -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lblNombreUsuario_AR" />
+
+    <EditText
+        android:id="@+id/txtNombreUsuario_AR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:hint="@string/strTxtNombreUsuarioHint_AR" />
+
+    <!-- Username -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lblUsername_AR" />
+
+    <EditText
+        android:id="@+id/txtUsername_AR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:hint="@string/strTxtUsernameHint_AR" />
+
+    <!-- Contraseña -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lblPassword_AR" />
+
+    <EditText
+        android:id="@+id/txtPassword_AR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:hint="@string/strTxtPasswordHint_AR"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <!-- Confirmar contraseña -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lblConfirmarPassword" />
+
+    <EditText
+        android:id="@+id/txtConfirmarPassword_AR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:hint="@string/strTxtPasswordHint_AR"
+        android:inputType="textPassword" />
+
+    <!-- Botones -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnRegistrarUsuario_AR"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="click"
+            android:text="@string/strBtnRegistrar_AR" />
+
+        <Button
+            android:id="@+id/btnRegresar_AR"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="click"
+            android:text="@string/strBtnRegresar_AR" />
+    </LinearLayout>
+
+</LinearLayout>

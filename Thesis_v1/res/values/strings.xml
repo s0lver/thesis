@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hola Mundo, ActividadUno</string>
+    <string name="app_name">Thesis</string>
+
+    <!-- Definición de strings para actividad uno (Pantalla bienvenida, login) -->
+    <string name="lblActividadLogin_AL">Thesis app v-0.0.1</string>
+    <string name="strTxtX">Aceleración en eje X</string>
+    <string name="strTxtY">Aceleración en eje Y</string>
+    <string name="strTxtZ">Aceleración en eje Z</string>
+    <string name="strLblBienvenidos_AL">Bienvenido</string>
+    <string name="strContentDescriptionGPSImage_AL">Imagen GPS</string>
+    <string name="strTxtUsernameHint_AL">Username</string>
+    <string name="strTxtPasswordHint_AL">Password</string>
+    <string name="lblUsername_AL">Nombre de usuario</string>
+    <string name="lblPassword_AL">Password</string>
+    <string name="strBtnLogin_AL">Login</string>
+    <string name="strBtnRegistrar_AL">Registrar nuevo usuario</string>
+
+    <!-- Definición de strings para actividad dos (Pantalla registrar usuario) -->
+    <string name="lblActividadRegistrar_AR">Registrar</string>
+    <string name="strLblRegistrar_AR">Registrar usuario</string>
+    <string name="strContentDescriptionImagenAgregarUsuario_AR">Imagen agregar usuario</string>
+    <string name="strLblMensajeRegistrar_AR">Introduzca los datos del nuevo usuario</string>
+    <string name="lblNombreUsuario_AR">Nombre completo del usuario</string>
+    <string name="strTxtNombreUsuarioHint_AR">Nombre completo del usuario</string>
+    <string name="lblUsername_AR">Nombre de usuario</string>
+    <string name="strTxtUsernameHint_AR">Username</string>
+    <string name="lblPassword_AR">Password</string>
+    <string name="strTxtPasswordHint_AR">Password</string>
+    <string name="lblConfirmarPassword">Confirmar password</string>
+    <string name="strBtnRegistrar_AR">Registrar</string>
+    <string name="strBtnRegresar_AR">Regresar</string>
+
+    <!-- Definición de strings para actividad central -->
+    <string name="strlblActividadCentral_AC">Bienvenido al sistema</string>
+    <string name="strlblNombreUsuario_AC">Username</string>
+    <string name="strlblActividades_AC">Actividades disponibles</string>
+    <string name="strlblActAcelerometro_AC">Sensar Acelerómetro</string>
+    <string name="strlblActDetenerAcelerometro_AC">Detener Sensado de Acelerómetro</string>
+    <string name="strlblActGPS_AC">Sensar GPS</string>
+    <string name="strlblActDetenerGPS_AC">Detener Sensado de GPS</string>
+    <string name="strlblRegresar_AC">Regresar</string>
+    <string name="strContentDescriptionImagenNexus_AC">Imagen smartphone Nexus</string>
+
+</resources>
